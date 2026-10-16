@@ -583,7 +583,7 @@ insert into public.mentors (id, name, tagline, highlights, github, linkedin, acc
     github = excluded.github, linkedin = excluded.linkedin, accent = excluded.accent, photo_url = excluded.photo_url,
     active = excluded.active, sort = excluded.sort;  -- team sizes are NOT overwritten: they are edited on the admin page
 insert into public.mentors (id, name, tagline, highlights, github, linkedin, accent, photo_url, min_team, max_team, active, sort) values
-  ('dhairya', 'Dhairya Thareja', 'MERN stack developer, AWS cloud', array['CropCare (MERN + Gemini)', 'UrlNest (AWS Lambda + DynamoDB)', 'Internship at Redian Software']::text[], 'https://github.com/dhairyathareja', 'https://www.linkedin.com/in/dhairyathareja/', null, null, 5, 8, false, 2)
+  ('dhairya', 'Dhairya Thareja', 'MERN stack developer, AWS cloud', array['CropCare (MERN + Gemini)', 'UrlNest (AWS Lambda + DynamoDB)', 'Internship at Redian Software']::text[], 'https://github.com/dhairyathareja', 'https://www.linkedin.com/in/dhairyathareja/', null, null, 5, 8, true, 2)
   on conflict (id) do update set name = excluded.name, tagline = excluded.tagline, highlights = excluded.highlights,
     github = excluded.github, linkedin = excluded.linkedin, accent = excluded.accent, photo_url = excluded.photo_url,
     active = excluded.active, sort = excluded.sort;  -- team sizes are NOT overwritten: they are edited on the admin page
@@ -609,6 +609,11 @@ insert into public.mentors (id, name, tagline, highlights, github, linkedin, acc
     active = excluded.active, sort = excluded.sort;  -- team sizes are NOT overwritten: they are edited on the admin page
 insert into public.mentors (id, name, tagline, highlights, github, linkedin, accent, photo_url, min_team, max_team, active, sort) values
   ('manan', 'Manan Arora', 'Docker, Kubernetes & DevOps', array['Student Grade Management System (Flask, PostgreSQL, Docker)', 'Apache on Kubernetes', 'FastAPI + GitHub Actions to Docker Hub', 'Ansible with Docker containers']::text[], 'https://github.com/Manan-Ar', 'https://www.linkedin.com/in/manan1950', null, 'mentors/manan.jpg', 5, 8, true, 7)
+  on conflict (id) do update set name = excluded.name, tagline = excluded.tagline, highlights = excluded.highlights,
+    github = excluded.github, linkedin = excluded.linkedin, accent = excluded.accent, photo_url = excluded.photo_url,
+    active = excluded.active, sort = excluded.sort;  -- team sizes are NOT overwritten: they are edited on the admin page
+insert into public.mentors (id, name, tagline, highlights, github, linkedin, accent, photo_url, min_team, max_team, active, sort) values
+  ('charvie', 'Charvie Ganjoo', 'Java, Spring Boot & AI for agriculture', array['HyperAGRI-Spectra.AI (crop disease detection)', 'CRUD app (Java Spring Boot)', 'LeetCode practice in Java', 'Microsoft Learn MLOps & GenAIOps labs']::text[], 'https://github.com/charviegganju', 'https://www.linkedin.com/in/charvieggaanju/', null, 'mentors/charvie.jpg', 5, 8, true, 8)
   on conflict (id) do update set name = excluded.name, tagline = excluded.tagline, highlights = excluded.highlights,
     github = excluded.github, linkedin = excluded.linkedin, accent = excluded.accent, photo_url = excluded.photo_url,
     active = excluded.active, sort = excluded.sort;  -- team sizes are NOT overwritten: they are edited on the admin page
@@ -942,6 +947,47 @@ insert into public.questions (id, mentor_id, kind, qkey, prompt, options, correc
   on conflict (id) do update set qkey = excluded.qkey, prompt = excluded.prompt, options = excluded.options,
     position = excluded.position, active = true;
 update public.questions set active = false where mentor_id = 'manan' and id not in ('mn1', 'mn2', 'mn3', 'mn4', 'mn5', 'manan__style', 'manan__pace', 'manan__value', 'manan__meet', 'manan__time');
+insert into public.questions (id, mentor_id, kind, qkey, prompt, options, correct, position) values
+  ('cg1', 'charvie', 'skill', null, 'Which language does Charvie use for her LeetCode practice?', array['Python', 'C++', 'Java', 'JavaScript']::text[], 2, 0)
+  on conflict (id) do update set mentor_id = excluded.mentor_id, kind = excluded.kind, qkey = null, prompt = excluded.prompt,
+    options = excluded.options, correct = excluded.correct, position = excluded.position, active = true;
+insert into public.questions (id, mentor_id, kind, qkey, prompt, options, correct, position) values
+  ('cg2', 'charvie', 'skill', null, 'Her HyperAGRI-Spectra.AI project detects crop disease using?', array['Satellite RGB photos', 'Hyperspectral imaging + IoT', 'Drone thermal cameras', 'Soil pH sensors only']::text[], 1, 1)
+  on conflict (id) do update set mentor_id = excluded.mentor_id, kind = excluded.kind, qkey = null, prompt = excluded.prompt,
+    options = excluded.options, correct = excluded.correct, position = excluded.position, active = true;
+insert into public.questions (id, mentor_id, kind, qkey, prompt, options, correct, position) values
+  ('cg3', 'charvie', 'skill', null, 'Charvie''s CRUD_App is built with which framework?', array['Node.js + Express', 'Django', 'Java Spring Boot', 'Laravel']::text[], 2, 2)
+  on conflict (id) do update set mentor_id = excluded.mentor_id, kind = excluded.kind, qkey = null, prompt = excluded.prompt,
+    options = excluded.options, correct = excluded.correct, position = excluded.position, active = true;
+insert into public.questions (id, mentor_id, kind, qkey, prompt, options, correct, position) values
+  ('cg4', 'charvie', 'skill', null, 'Her LeetCode 53 (Maximum Subarray) solution uses which approach?', array['Kadane''s algorithm (running sum)', 'Divide and conquer', 'Brute force over all subarrays', 'Binary search']::text[], 0, 3)
+  on conflict (id) do update set mentor_id = excluded.mentor_id, kind = excluded.kind, qkey = null, prompt = excluded.prompt,
+    options = excluded.options, correct = excluded.correct, position = excluded.position, active = true;
+insert into public.questions (id, mentor_id, kind, qkey, prompt, options, correct, position) values
+  ('cg5', 'charvie', 'skill', null, 'In her LeetCode 136 (Single Number) solution, how is the single number found?', array['Sorting the array', 'Using a HashMap of counts', 'Sum of set minus sum of array', 'XOR of all the numbers']::text[], 3, 4)
+  on conflict (id) do update set mentor_id = excluded.mentor_id, kind = excluded.kind, qkey = null, prompt = excluded.prompt,
+    options = excluded.options, correct = excluded.correct, position = excluded.position, active = true;
+insert into public.questions (id, mentor_id, kind, qkey, prompt, options, correct, position) values
+  ('charvie__pace', 'charvie', 'interest', 'pace', 'How do you like to work?', array['Structured: fixed weekly goals and check-ins', 'Sprints: intense bursts around deadlines', 'Flexible: async, at my own pace']::text[], null, 0)
+  on conflict (id) do update set qkey = excluded.qkey, prompt = excluded.prompt, options = excluded.options,
+    position = excluded.position, active = true;
+insert into public.questions (id, mentor_id, kind, qkey, prompt, options, correct, position) values
+  ('charvie__value', 'charvie', 'interest', 'value', 'What is your biggest strength as a team member?', array['Consistency', 'Curiosity', 'Technical depth', 'Creativity', 'Communication']::text[], null, 1)
+  on conflict (id) do update set qkey = excluded.qkey, prompt = excluded.prompt, options = excluded.options,
+    position = excluded.position, active = true;
+insert into public.questions (id, mentor_id, kind, qkey, prompt, options, correct, position) values
+  ('charvie__meet', 'charvie', 'interest', 'meet', 'How would you prefer to meet your team?', array['In person on campus', 'Online calls (Meet / Discord)', 'Mostly chat (WhatsApp / Discord)']::text[], null, 2)
+  on conflict (id) do update set qkey = excluded.qkey, prompt = excluded.prompt, options = excluded.options,
+    position = excluded.position, active = true;
+insert into public.questions (id, mentor_id, kind, qkey, prompt, options, correct, position) values
+  ('charvie__time', 'charvie', 'interest', 'time', 'How much time can you give per week?', array['Under 2 hours', '2–4 hours', '4–6 hours', '6+ hours']::text[], null, 3)
+  on conflict (id) do update set qkey = excluded.qkey, prompt = excluded.prompt, options = excluded.options,
+    position = excluded.position, active = true;
+insert into public.questions (id, mentor_id, kind, qkey, prompt, options, correct, position) values
+  ('charvie__project', 'charvie', 'interest', 'project', 'What kind of project do you most want to build?', array['A real product / startup-style app', 'A research / paper-style project', 'Open-source contributions', 'Hackathon / competition builds', 'Learn fundamentals with mini projects']::text[], null, 4)
+  on conflict (id) do update set qkey = excluded.qkey, prompt = excluded.prompt, options = excluded.options,
+    position = excluded.position, active = true;
+update public.questions set active = false where mentor_id = 'charvie' and id not in ('cg1', 'cg2', 'cg3', 'cg4', 'cg5', 'charvie__pace', 'charvie__value', 'charvie__meet', 'charvie__time', 'charvie__project');
 
 commit;
 

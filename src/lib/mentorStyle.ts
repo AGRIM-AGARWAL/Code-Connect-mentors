@@ -29,4 +29,5 @@ export const LOCAL_PHOTOS: Record<string, string> = {
   aarjav: 'mentors/aarjav.jpg',
   divyanshu: 'mentors/divyanshu.jpg',
   manan: 'mentors/manan.jpg',
+  charvie: 'mentors/charvie.jpg',
 }

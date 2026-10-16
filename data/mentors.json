@@ -223,8 +223,7 @@
         "answer": 1,
         "source": "https://github.com/dhairyathareja"
       }
-    ],
-    "active": false
+    ]
   },
   {
     "id": "vanshdeep",
@@ -604,6 +603,82 @@
         ],
         "answer": 3,
         "source": "https://github.com/Manan-Ar/fastapi-app"
+      }
+    ]
+  },
+  {
+    "id": "charvie",
+    "name": "Charvie Ganjoo",
+    "linkedin": "https://www.linkedin.com/in/charvieggaanju/",
+    "github": "https://github.com/charviegganju",
+    "tagline": "Java, Spring Boot & AI for agriculture",
+    "highlights": [
+      "HyperAGRI-Spectra.AI (crop disease detection)",
+      "CRUD app (Java Spring Boot)",
+      "LeetCode practice in Java",
+      "Microsoft Learn MLOps & GenAIOps labs"
+    ],
+    "photoUrl": "mentors/charvie.jpg",
+    "skillQuestions": [
+      {
+        "id": "cg1",
+        "q": "Which language does Charvie use for her LeetCode practice?",
+        "options": [
+          "Python",
+          "C++",
+          "Java",
+          "JavaScript"
+        ],
+        "answer": 2,
+        "source": "https://github.com/charviegganju/Leetcode_Charvie"
+      },
+      {
+        "id": "cg2",
+        "q": "Her HyperAGRI-Spectra.AI project detects crop disease using?",
+        "options": [
+          "Satellite RGB photos",
+          "Hyperspectral imaging + IoT",
+          "Drone thermal cameras",
+          "Soil pH sensors only"
+        ],
+        "answer": 1,
+        "source": "https://github.com/charviegganju/HyperAGRI-Spectra.AI"
+      },
+      {
+        "id": "cg3",
+        "q": "Charvie's CRUD_App is built with which framework?",
+        "options": [
+          "Node.js + Express",
+          "Django",
+          "Java Spring Boot",
+          "Laravel"
+        ],
+        "answer": 2,
+        "source": "https://github.com/charviegganju/CRUD_App"
+      },
+      {
+        "id": "cg4",
+        "q": "Her LeetCode 53 (Maximum Subarray) solution uses which approach?",
+        "options": [
+          "Kadane's algorithm (running sum)",
+          "Divide and conquer",
+          "Brute force over all subarrays",
+          "Binary search"
+        ],
+        "answer": 0,
+        "source": "https://github.com/charviegganju/Leetcode_Charvie"
+      },
+      {
+        "id": "cg5",
+        "q": "In her LeetCode 136 (Single Number) solution, how is the single number found?",
+        "options": [
+          "Sorting the array",
+          "Using a HashMap of counts",
+          "Sum of set minus sum of array",
+          "XOR of all the numbers"
+        ],
+        "answer": 3,
+        "source": "https://github.com/charviegganju/Leetcode_Charvie"
       }
     ]
   }
