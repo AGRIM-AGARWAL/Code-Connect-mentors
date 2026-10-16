@@ -1,0 +1,48 @@
+{
+  "_note": "Option ORDER must match the mentor Google Form (create_mentor_form.gs). Students' answer index is matched against the mentor's answer index. perMentor = how many of these keys each mentor's quiz uses (rotated so each mentor gets a different set).",
+  "perMentor": 5,
+  "keys": [
+    {
+      "qkey": "project",
+      "mentorPrompt": "What kind of project would you like your team to build?",
+      "mentorOptions": ["Real product / startup-style app", "Research / paper-style project", "Open-source contribution", "Hackathon / competition build", "Learning-first (fundamentals + mini projects)"],
+      "studentPrompt": "What kind of project do you most want to build?",
+      "studentOptions": ["A real product / startup-style app", "A research / paper-style project", "Open-source contributions", "Hackathon / competition builds", "Learn fundamentals with mini projects"]
+    },
+    {
+      "qkey": "style",
+      "mentorPrompt": "Your mentoring style",
+      "mentorOptions": ["Hands-on — I code alongside the team", "Guide & review — I set direction, review their work", "Hands-off — the team drives, I unblock when needed"],
+      "studentPrompt": "How would you like your mentor to guide you?",
+      "studentOptions": ["Code alongside us, hands-on", "Set the direction and review our work", "Let us drive, help only when we're stuck"]
+    },
+    {
+      "qkey": "pace",
+      "mentorPrompt": "How do you like to work?",
+      "mentorOptions": ["Structured — fixed weekly goals and check-ins", "Sprint-based — intense bursts around deadlines", "Flexible — async, at our own pace"],
+      "studentPrompt": "How do you like to work?",
+      "studentOptions": ["Structured: fixed weekly goals and check-ins", "Sprints: intense bursts around deadlines", "Flexible: async, at my own pace"]
+    },
+    {
+      "qkey": "value",
+      "mentorPrompt": "What do you value most in a mentee?",
+      "mentorOptions": ["Consistency", "Curiosity", "Technical depth", "Creativity", "Communication"],
+      "studentPrompt": "What is your biggest strength as a team member?",
+      "studentOptions": ["Consistency", "Curiosity", "Technical depth", "Creativity", "Communication"]
+    },
+    {
+      "qkey": "meet",
+      "mentorPrompt": "Preferred way to meet the team",
+      "mentorOptions": ["In person on campus", "Online calls (Meet / Discord)", "Mostly chat (WhatsApp / Discord)"],
+      "studentPrompt": "How would you prefer to meet your team?",
+      "studentOptions": ["In person on campus", "Online calls (Meet / Discord)", "Mostly chat (WhatsApp / Discord)"]
+    },
+    {
+      "qkey": "time",
+      "mentorPrompt": "Time you can give per week",
+      "mentorOptions": ["Under 2 hours", "2–4 hours", "4–6 hours", "6+ hours"],
+      "studentPrompt": "How much time can you give per week?",
+      "studentOptions": ["Under 2 hours", "2–4 hours", "4–6 hours", "6+ hours"]
+    }
+  ]
+}

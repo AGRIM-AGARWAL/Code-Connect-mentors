@@ -1,0 +1,610 @@
+[
+  {
+    "id": "om",
+    "name": "Om Agarwal",
+    "linkedin": "https://www.linkedin.com/in/om-agarwal16805/",
+    "github": "https://github.com/Omfalcon",
+    "tagline": "Python automation, web apps & security tools",
+    "highlights": [
+      "WhatsApp Group Adder (Python, Selenium)",
+      "CloudQuiz (Firebase)",
+      "Security Scanner (PHP)",
+      "Real-time chat app (Flask, MongoDB)"
+    ],
+    "skillQuestions": [
+      {
+        "id": "om1",
+        "q": "Om's WhatsApp Group Adder automates the browser using which tool?",
+        "options": [
+          "Selenium",
+          "Puppeteer",
+          "Playwright",
+          "Cypress"
+        ],
+        "answer": 0,
+        "source": "https://github.com/Omfalcon/Whatsappgroupadder"
+      },
+      {
+        "id": "om2",
+        "q": "Where does Om's CloudQuiz app store quiz data?",
+        "options": [
+          "MongoDB Atlas",
+          "Firebase Firestore",
+          "MySQL",
+          "Supabase"
+        ],
+        "answer": 1,
+        "source": "https://github.com/Omfalcon/cloudquiz"
+      },
+      {
+        "id": "om3",
+        "q": "Om's Security Scanner checks a website for which three things?",
+        "options": [
+          "CSRF, DDoS and phishing",
+          "Weak passwords, CORS and cookies",
+          "Open ports, SQL injection and XSS",
+          "SSL expiry, DNS and malware"
+        ],
+        "answer": 2,
+        "source": "https://github.com/Omfalcon/Security-Scanner"
+      },
+      {
+        "id": "om4",
+        "q": "Om's Sleep-Timer desktop app is written in which language?",
+        "options": [
+          "C++",
+          "Python",
+          "Java",
+          "C#"
+        ],
+        "answer": 3,
+        "source": "https://github.com/Omfalcon/Sleep-Timer"
+      },
+      {
+        "id": "om5",
+        "q": "The backend of Om's real-time chat app (APP repo) is built with?",
+        "options": [
+          "Flask + MongoDB",
+          "Django + PostgreSQL",
+          "Express + MySQL",
+          "Spring Boot + Redis"
+        ],
+        "answer": 0,
+        "source": "https://github.com/Omfalcon/APP"
+      }
+    ],
+    "photoUrl": "mentors/om.jpg"
+  },
+  {
+    "id": "chirrayu",
+    "name": "Chirrayu Sharma",
+    "linkedin": "https://www.linkedin.com/in/chirrayu-sharma-37138b375/",
+    "github": "https://github.com/chirrayu",
+    "tagline": "Full-stack web apps with React, Node & Flask",
+    "highlights": [
+      "MovieTime (React, Socket.io, Redis)",
+      "WheelsOnRent (scooter booking)",
+      "UPES Complaint Management System"
+    ],
+    "skillQuestions": [
+      {
+        "id": "ch1",
+        "q": "Chirrayu's MovieTime keeps 'Watch Party' viewers in sync using?",
+        "options": [
+          "Firebase Realtime Database",
+          "Socket.io with Redis",
+          "GraphQL subscriptions",
+          "Polling a REST API"
+        ],
+        "answer": 1,
+        "source": "https://github.com/chirrayu/MovieTime"
+      },
+      {
+        "id": "ch2",
+        "q": "WheelsOnRent lets students book scooters and bikes in which two areas?",
+        "options": [
+          "Prem Nagar and Clement Town",
+          "Rajpur and Mussoorie",
+          "Bidholi and Kandoli",
+          "ISBT and Clock Tower"
+        ],
+        "answer": 2,
+        "source": "https://github.com/chirrayu/WheelsOnRent"
+      },
+      {
+        "id": "ch3",
+        "q": "In MovieTime's recommendation score, which signal earns the most points per match?",
+        "options": [
+          "Favourite genres",
+          "Watchlist genres",
+          "Watch history",
+          "TMDB rating"
+        ],
+        "answer": 0,
+        "source": "https://github.com/chirrayu/MovieTime"
+      },
+      {
+        "id": "ch4",
+        "q": "Chirrayu's problem-statement app (Flask) stores data in which database?",
+        "options": [
+          "MongoDB",
+          "PostgreSQL",
+          "Firebase",
+          "MySQL"
+        ],
+        "answer": 3,
+        "source": "https://github.com/chirrayu/problem_statement_app_chirrayu_project"
+      },
+      {
+        "id": "ch5",
+        "q": "The backend of Chirrayu's UPES Complaint Management System uses?",
+        "options": [
+          "Flask + MongoDB",
+          "Express + MySQL",
+          "Django + SQLite",
+          "Spring Boot + PostgreSQL"
+        ],
+        "answer": 0,
+        "source": "https://github.com/chirrayu/Upes-complaint-management-system"
+      }
+    ],
+    "photoUrl": "mentors/chirrayu.jpg",
+    "active": false
+  },
+  {
+    "id": "dhairya",
+    "name": "Dhairya Thareja",
+    "linkedin": "https://www.linkedin.com/in/dhairyathareja/",
+    "github": "https://github.com/dhairyathareja",
+    "tagline": "MERN stack developer, AWS cloud",
+    "highlights": [
+      "CropCare (MERN + Gemini)",
+      "UrlNest (AWS Lambda + DynamoDB)",
+      "Internship at Redian Software"
+    ],
+    "skillQuestions": [
+      {
+        "id": "dh1",
+        "q": "Dhairya's GitHub profile says he did a full-stack internship at?",
+        "options": [
+          "Redian Software",
+          "Infosys",
+          "TCS",
+          "Zoho"
+        ],
+        "answer": 0,
+        "source": "https://github.com/dhairyathareja/dhairyathareja"
+      },
+      {
+        "id": "dh2",
+        "q": "Dhairya's URL shortener UrlNest stores links using?",
+        "options": [
+          "Firebase",
+          "MySQL",
+          "AWS DynamoDB (via Lambda)",
+          "Redis"
+        ],
+        "answer": 2,
+        "source": "https://github.com/dhairyathareja/UrlNest"
+      },
+      {
+        "id": "dh3",
+        "q": "Which AI model family powers the chatbot in Dhairya's CropCare app?",
+        "options": [
+          "OpenAI GPT",
+          "Anthropic Claude",
+          "Meta Llama",
+          "Google Gemini"
+        ],
+        "answer": 3,
+        "source": "https://github.com/dhairyathareja/CropCare"
+      },
+      {
+        "id": "dh4",
+        "q": "Dhairya's AirGuard app gets air-pollution data from which API?",
+        "options": [
+          "OpenWeatherMap",
+          "Google Maps",
+          "NASA Earthdata",
+          "AccuWeather"
+        ],
+        "answer": 0,
+        "source": "https://github.com/dhairyathareja/AirGuard"
+      },
+      {
+        "id": "dh5",
+        "q": "Dhairya describes himself on GitHub as a ___ stack developer.",
+        "options": [
+          "MEAN",
+          "MERN",
+          "LAMP",
+          "Django"
+        ],
+        "answer": 1,
+        "source": "https://github.com/dhairyathareja"
+      }
+    ],
+    "active": false
+  },
+  {
+    "id": "vanshdeep",
+    "name": "Vanshdeep Srivastava",
+    "linkedin": "https://www.linkedin.com/in/vanshdeep-srivastav-aa6749310/",
+    "github": "https://github.com/Vanshdeep001",
+    "tagline": "Full stack, Cloud & DevOps, ML",
+    "highlights": [
+      "MediLink (Next.js, WebRTC, AI)",
+      "Small Language Model from scratch",
+      "Object Monitoring (YOLOv8)",
+      "AlgoBench (Judge0)"
+    ],
+    "skillQuestions": [
+      {
+        "id": "va1",
+        "q": "Vanshdeep trained his Small Language Model (SLM) on which dataset?",
+        "options": [
+          "Wikipedia",
+          "TinyStories",
+          "Shakespeare",
+          "OpenWebText"
+        ],
+        "answer": 1,
+        "source": "https://github.com/Vanshdeep001/Small-Language-Model-SLM-"
+      },
+      {
+        "id": "va2",
+        "q": "His Object Monitoring System detects and tracks objects using?",
+        "options": [
+          "Faster R-CNN + Kalman filter",
+          "SSD + optical flow",
+          "YOLOv8 + DeepSORT",
+          "Mask R-CNN + ByteTrack"
+        ],
+        "answer": 2,
+        "source": "https://github.com/Vanshdeep001/Object-Monitoring-System"
+      },
+      {
+        "id": "va3",
+        "q": "AlgoBench runs students' submitted code safely using?",
+        "options": [
+          "Judge0",
+          "AWS Lambda",
+          "Replit API",
+          "Piston"
+        ],
+        "answer": 0,
+        "source": "https://github.com/Vanshdeep001/AlgoBench"
+      },
+      {
+        "id": "va4",
+        "q": "Video consultations in his MediLink healthcare app are built on?",
+        "options": [
+          "Zoom SDK",
+          "Agora",
+          "Twilio Video",
+          "WebRTC (with Jitsi fallback)"
+        ],
+        "answer": 3,
+        "source": "https://github.com/Vanshdeep001/MediLink"
+      },
+      {
+        "id": "va5",
+        "q": "In his HGNN-Model repo, what does HGNN stand for?",
+        "options": [
+          "Hypergraph Neural Network",
+          "Hierarchical Graph Neural Network",
+          "Hybrid Gated Neural Network",
+          "Heterogeneous Graph Node Network"
+        ],
+        "answer": 0,
+        "source": "https://github.com/Vanshdeep001/HGNN-Model"
+      }
+    ],
+    "photoUrl": "mentors/vanshdeep.jpg"
+  },
+  {
+    "id": "khushi",
+    "name": "Khushi Verma",
+    "linkedin": "https://www.linkedin.com/in/khushi-verma-58553930a/",
+    "github": "https://github.com/vkhushi1802",
+    "tagline": "C, DSA & Python fundamentals",
+    "highlights": [
+      "100 Days of DSA (C)",
+      "Hotel Management System (Python)",
+      "BuzzerVerse game for IEEE"
+    ],
+    "skillQuestions": [
+      {
+        "id": "kh1",
+        "q": "In Khushi's 100 Days of DSA challenge, how many problems does she solve each day?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "5"
+        ],
+        "answer": 1,
+        "source": "https://github.com/vkhushi1802/100_Days_DSA"
+      },
+      {
+        "id": "kh2",
+        "q": "Which language does Khushi use for her DSA and coding challenges?",
+        "options": [
+          "Python",
+          "Java",
+          "C",
+          "C++"
+        ],
+        "answer": 2,
+        "source": "https://github.com/vkhushi1802/100_Days_DSA"
+      },
+      {
+        "id": "kh3",
+        "q": "Her Python Hotel Management System saves its data in?",
+        "options": [
+          "MySQL",
+          "SQLite",
+          "MongoDB",
+          "JSON files"
+        ],
+        "answer": 3,
+        "source": "https://github.com/vkhushi1802/Hotel_Management_System"
+      },
+      {
+        "id": "kh4",
+        "q": "Khushi built the BuzzerVerse game for a workshop of which organisation?",
+        "options": [
+          "IEEE",
+          "GDSC",
+          "ACM",
+          "CodeChef Chapter"
+        ],
+        "answer": 0,
+        "source": "https://github.com/vkhushi1802/BuzzerVerse_Game_IEEE"
+      },
+      {
+        "id": "kh5",
+        "q": "What is the motto at the top of Khushi's 100 Days of DSA repo?",
+        "options": [
+          "Code every day",
+          "Consistency over intensity",
+          "Practice makes perfect",
+          "Learn, build, repeat"
+        ],
+        "answer": 1,
+        "source": "https://github.com/vkhushi1802/100_Days_DSA"
+      }
+    ],
+    "photoUrl": "mentors/khushi.jpg",
+    "active": false
+  },
+  {
+    "id": "aarjav",
+    "name": "Aarjav Singh",
+    "linkedin": "https://www.linkedin.com/in/aarjav-singh-a72a19384",
+    "github": "https://github.com/dev-rjav",
+    "tagline": "Rust, Go & local-first AI tools",
+    "highlights": [
+      "Wisteria (Rust, local voice dictation)",
+      "Imposter (Node.js, WebSockets)",
+      "DevMatrix CLI (Go, Cobra)",
+      "Very Useless Tokenizer (Python, BPE)"
+    ],
+    "skillQuestions": [
+      {
+        "id": "aa1",
+        "q": "In Aarjav's Wisteria dictation app, where does the speech-to-text run?",
+        "options": [
+          "On cloud GPUs",
+          "Locally on your own machine",
+          "Inside a browser extension",
+          "On Google's Speech API"
+        ],
+        "answer": 1,
+        "source": "https://github.com/dev-rjav/Wisteria"
+      },
+      {
+        "id": "aa2",
+        "q": "Which speech-to-text model is Wisteria's default?",
+        "options": [
+          "Amazon Transcribe",
+          "Mozilla DeepSpeech",
+          "Parakeet TDT 0.6B v3",
+          "Google Speech-to-Text"
+        ],
+        "answer": 2,
+        "source": "https://github.com/dev-rjav/Wisteria"
+      },
+      {
+        "id": "aa3",
+        "q": "Aarjav's Imposter party game connects the browser and the server using?",
+        "options": [
+          "WebSockets",
+          "REST polling",
+          "GraphQL",
+          "Firebase Realtime Database"
+        ],
+        "answer": 0,
+        "source": "https://github.com/dev-rjav/Imposter"
+      },
+      {
+        "id": "aa4",
+        "q": "How many players can join one Imposter room?",
+        "options": [
+          "2–4",
+          "5–20",
+          "Unlimited",
+          "3–10"
+        ],
+        "answer": 3,
+        "source": "https://github.com/dev-rjav/Imposter"
+      },
+      {
+        "id": "aa5",
+        "q": "Which tokenization technique did Aarjav build by hand in Very Useless Tokenizer?",
+        "options": [
+          "Byte-Pair Encoding (BPE) merges",
+          "WordPiece",
+          "SentencePiece unigram",
+          "Character-only splitting"
+        ],
+        "answer": 0,
+        "source": "https://github.com/dev-rjav/Very_Useless_Tokenizer"
+      }
+    ],
+    "photoUrl": "mentors/aarjav.jpg",
+    "active": false
+  },
+  {
+    "id": "divyanshu",
+    "name": "Divyanshu Gaur",
+    "linkedin": "https://www.linkedin.com/in/divyanshu-gaur-4a78b71b7/",
+    "github": "https://github.com/DivKiller1",
+    "tagline": "Cloud, DevOps & Backend Engineer",
+    "highlights": [
+      "Autonomous CI/CD (FastAPI, LangGraph)",
+      "Guardian AI (DDoS detection, LSTM)",
+      "Jenkins + Docker CI/CD pipeline",
+      "AWS Academy Graduate"
+    ],
+    "skillQuestions": [
+      {
+        "id": "dg1",
+        "q": "Divyanshu's my-app CI/CD pipeline runs on which automation server?",
+        "options": [
+          "GitHub Actions",
+          "Jenkins",
+          "CircleCI",
+          "Travis CI"
+        ],
+        "answer": 1,
+        "source": "https://github.com/DivKiller1/my-app"
+      },
+      {
+        "id": "dg2",
+        "q": "In his Rock-Paper-Scissor game, what win streak gets you into the Hall of Fame?",
+        "options": [
+          "1",
+          "5",
+          "3",
+          "10"
+        ],
+        "answer": 2,
+        "source": "https://github.com/DivKiller1/Rock-Paper-Scissor"
+      },
+      {
+        "id": "dg3",
+        "q": "His Guardian AI DDoS system predicts short-term risk with which model?",
+        "options": [
+          "LSTM",
+          "Random Forest",
+          "CNN",
+          "Transformer"
+        ],
+        "answer": 0,
+        "source": "https://github.com/DivKiller1/divkiller1.github.io"
+      },
+      {
+        "id": "dg4",
+        "q": "Which LLM provider powers his Autonomous CI/CD vulnerability-fix platform?",
+        "options": [
+          "OpenAI GPT-4",
+          "Google Gemini",
+          "Anthropic Claude",
+          "Groq (Llama 3.1)"
+        ],
+        "answer": 3,
+        "source": "https://github.com/DivKiller1/divkiller1.github.io"
+      },
+      {
+        "id": "dg5",
+        "q": "What is Divyanshu's B.Tech specialisation at UPES?",
+        "options": [
+          "AI & Machine Learning",
+          "Cloud Computing & Virtualization",
+          "Cybersecurity",
+          "Data Science"
+        ],
+        "answer": 1,
+        "source": "https://github.com/DivKiller1/divkiller1.github.io"
+      }
+    ],
+    "photoUrl": "mentors/divyanshu.jpg"
+  },
+  {
+    "id": "manan",
+    "name": "Manan Arora",
+    "linkedin": "https://www.linkedin.com/in/manan1950",
+    "github": "https://github.com/Manan-Ar",
+    "tagline": "Docker, Kubernetes & DevOps",
+    "highlights": [
+      "Student Grade Management System (Flask, PostgreSQL, Docker)",
+      "Apache on Kubernetes",
+      "FastAPI + GitHub Actions to Docker Hub",
+      "Ansible with Docker containers"
+    ],
+    "photoUrl": "mentors/manan.jpg",
+    "skillQuestions": [
+      {
+        "id": "mn1",
+        "q": "Manan's Student Grade Management System is built with which stack?",
+        "options": [
+          "Flask + PostgreSQL",
+          "FastAPI + MongoDB",
+          "Django + MySQL",
+          "Express + PostgreSQL"
+        ],
+        "answer": 0,
+        "source": "https://github.com/Manan-Ar/docker"
+      },
+      {
+        "id": "mn2",
+        "q": "In that project, how does the Flask API wait until the database is ready?",
+        "options": [
+          "It retries the connection in a loop",
+          "A fixed sleep before starting",
+          "A PostgreSQL health check (pg_isready) in Docker Compose",
+          "A Kubernetes readiness probe"
+        ],
+        "answer": 2,
+        "source": "https://github.com/Manan-Ar/docker"
+      },
+      {
+        "id": "mn3",
+        "q": "In his apache-k8s project, which Kubernetes Service type exposes the Apache site?",
+        "options": [
+          "ClusterIP",
+          "LoadBalancer",
+          "NodePort",
+          "ExternalName"
+        ],
+        "answer": 2,
+        "source": "https://github.com/Manan-Ar/apache-k8s"
+      },
+      {
+        "id": "mn4",
+        "q": "In apache-k8s, where does the web page (index.html) served by Apache come from?",
+        "options": [
+          "A ConfigMap mounted into the pod",
+          "A PersistentVolume",
+          "A Secret",
+          "It is baked into the image"
+        ],
+        "answer": 0,
+        "source": "https://github.com/Manan-Ar/apache-k8s"
+      },
+      {
+        "id": "mn5",
+        "q": "What does the GitHub Actions workflow in his fastapi-app repo do on a push to main?",
+        "options": [
+          "Runs pytest",
+          "Deploys to AWS",
+          "Publishes to PyPI",
+          "Builds and pushes a Docker image to Docker Hub"
+        ],
+        "answer": 3,
+        "source": "https://github.com/Manan-Ar/fastapi-app"
+      }
+    ]
+  }
+]
